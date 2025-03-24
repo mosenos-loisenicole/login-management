@@ -19,16 +19,18 @@ body{
 .wrapper { 
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(0, 0, 0, .5);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
     padding: 20px 30px;
 }
 
 .wrapper h1 {
+    color: rgb(0, 0, 0);
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -42,16 +44,16 @@ body{
 .input-box input {
     width: 100%;
     height: 100%;
-    background: transparent;
-    border: none;
+    background: transparent; 
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(30px);
     border-radius: 40px;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .wrapper .remember-forgot {
@@ -63,12 +65,12 @@ body{
 }
 
 .remember-forgot label input{
-    accent-color: white;
+    accent-color: rgb(0, 0, 0);
     margin-right: 3px;
 }
 
 .remember-forgot a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -96,9 +98,9 @@ body{
     text-align: center;
     margin: 20px 0 15px;
 }
-
+/* 
 .register-link p a {
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     text-decoration: none;
-}
+} */
